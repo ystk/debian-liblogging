@@ -1,0 +1,5 @@
+usr/include/*
+usr/lib/*/liblogging-stdlog.a
+usr/lib/*/liblogging-stdlog.so
+usr/lib/*/pkgconfig/liblogging-stdlog.pc
+usr/share/man/man3/stdlog.3

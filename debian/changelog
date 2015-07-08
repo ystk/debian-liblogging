@@ -1,0 +1,32 @@
+liblogging (1.0.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Biebl <biebl@debian.org>  Thu, 03 Apr 2014 17:34:23 +0200
+
+liblogging (1.0.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update patches.
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 18 Mar 2014 16:32:53 +0100
+
+liblogging (1.0.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Explicitly disable rfc3195 and journalemu support.
+  * Hide private symbols in liblogging-stdlog.
+  * Use dh-autoreconf to update the build system.
+  * Add Build-Depends on pkg-config, required during autoreconf.
+  * Add symbols file for liblogging-stdlog.
+  * Fix broken test for cached man pages.
+  * Install stdlog man page containing the API documentation for
+    liblogging-stdlog.
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 11 Mar 2014 18:56:31 +0100
+
+liblogging (1.0.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #739064)
+
+ -- Michael Biebl <biebl@debian.org>  Sat, 15 Feb 2014 17:43:10 +0100

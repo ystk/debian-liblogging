@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with autoreconf
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		--disable-journal \
+		--disable-rfc3195
+
+override_dh_install:
+	dh_install -X.la --list-missing
